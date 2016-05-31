@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/angular-material/angular-material.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel='stylesheet' href='/style/style.css' />
+</head>
+<body ng-app="appclient">
+
+<div ui-view></div>
+
+</body>
+<script src="/angular/angular.js" charset="utf-8"></script>
+
+<script src="/angular-animate/angular-animate.min.js" charset="utf-8"></script>
+<script src="/angular-aria/angular-aria.min.js" charset="utf-8"></script>
+<script src="/angular-messages/angular-messages.min.js" charset="utf-8"></script>
+
+<script src="/angular-material/angular-material.min.js" charset="utf-8"></script>
+
+<script src="/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<script src="/js/appclient.js"></script>
+
+<script src="/js/auth/auth.module.js"></script>
+<script src="/js/auth/factory/authClientFactory.js"></script>
+<script src="/js/auth/controller/AuthCtrl.js"></script>
+
+<script src="/js/workspace/workspace.module.js"></script>
+<script src="/js/workspace/controller/WorkspaceCtrl.js"></script>
+
+<script src="/js/dashboard/dashboard.module.js"></script>
+<script src="/js/dashboard/controller/DashboardCtrl.js"></script>
+<script src="/js/dashboard/controller/LandingCtrl.js"></script>
+
+</html>
